@@ -47,7 +47,7 @@ p {
     padding-top: 15%;
 }
 
-/*Skills*/
+/*Portafolio*/
 .slide{
 margin-top: 10px;
 }
@@ -55,6 +55,16 @@ margin-top: 10px;
     height: 89vh;
 }
 
+/*Skills*/
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-text{
+    font-size: 30px;
+    color: rgb(51, 50, 51);
+}
 /*Contacto*/
 .izquierda-contact{
     background-color: rgba(38, 4, 76, 0.8); 
