@@ -39,7 +39,7 @@ nav span{
     justify-content: center;
     align-items: center;
 }
-p {
+.titulo-home {
     color:white;
     justify-content: center;
     align-items: center;
@@ -116,4 +116,8 @@ margin-top: 10px;
     background: url(../img/img-sobremi.jpg) center;
     background-size: cover;
     border-radius: 10px;
+}
+/*Footer*/
+.color1{
+    background-color: #25044C;
 }
