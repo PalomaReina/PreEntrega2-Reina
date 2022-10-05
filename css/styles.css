@@ -88,6 +88,10 @@ margin-top: 10px;
     color: white;
     margin-top: 13vh;
 }
+form{
+    padding-top:150px;
+}
+
 /*Sobremi*/
 .contenedor{
     display: grid;
