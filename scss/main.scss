@@ -55,15 +55,21 @@ nav {
 
 /*Skills*/
 
-.card {
+.skills {
+  color: white;
+  height: 400px;
+  background-color: #25044C;
   display: flex;
-  justify-content: center;
   align-items: center;
+  align-content: space-around;
 }
 
-.card-text {
-  font-size: 30px;
-  color: rgb(51, 50, 51);
+.texto-centrado {
+  text-align: center;
+}
+
+.margen-superior {
+  padding-top: 153px;
 }
 
 /*Contacto*/
@@ -95,6 +101,10 @@ nav {
     color: white;
     margin-top: 13vh;
   }
+}
+
+form {
+  padding-top: 150px;
 }
 
 /*Sobremi*/
