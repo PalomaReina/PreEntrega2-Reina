@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+* {
+  font-family: 'Fjalla One', sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background: url(../img/background-home.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+/*Navegador*/
+
+.navbar-nav.navbar-center {
+  position: absolute;
+  left: 50%;
+  transform: translatex(-50%);
+}
+
+nav {
+  ul li a, a, button, span {
+    color: white !important;
+  }
+}
+
+/*Fin Navegador*/
+
+/*Home*/
+
+.form-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.titulo-home {
+  color: white;
+  justify-content: center;
+  align-items: center;
+  font-size: 3em;
+  padding-top: 15%;
+}
+
+/*Portafolio*/
+
+.slide {
+  margin-top: 10px;
+
+  img {
+    height: 89vh;
+  }
+}
+
+/*Skills*/
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-text {
+  font-size: 30px;
+  color: rgb(51, 50, 51);
+}
+
+/*Contacto*/
+
+.izquierda-contact {
+  background-color: rgba(38, 4, 76, 0.8);
+  display: flex;
+  place-items: center;
+  text-align: center;
+  border-radius: 10px;
+
+  h1 {
+    color: white;
+    font-size: 50px;
+  }
+
+  p {
+    color: white;
+    font-size: 20px;
+  }
+}
+
+.derecha-contact {
+  background-color: rgba(38, 4, 76, 0.8);
+  background-size: cover;
+  border-radius: 10px;
+
+  form {
+    color: white;
+    margin-top: 13vh;
+  }
+}
+
+/*Sobremi*/
+
+.contenedor {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 85vh;
+}
+
+.izquierda {
+  background-color: rgba(38, 4, 76, 0.8);
+  display: flex;
+  place-items: center;
+  text-align: center;
+  border-radius: 5px;
+
+  h1 {
+    color: white;
+    font-size: 50px;
+  }
+
+  p {
+    color: white;
+    font-size: 20px;
+  }
+}
+
+.derecha {
+  background: url(../img/img-sobremi.jpg) center;
+  background-size: cover;
+  border-radius: 5px;
+}
+
+/*Footer*/
+
+.color1 {
+  background-color: #25044C;
+}
