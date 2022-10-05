@@ -54,15 +54,21 @@ margin-top: 10px;
 }
 
 /*Skills*/
-.card{
+.skills{
+    color: white;
+    height: 400px;
+    background-color: #25044C;
     display: flex;
-    justify-content: center;
     align-items: center;
+    align-content: space-around;
 }
-.card-text{
-    font-size: 30px;
-    color: rgb(51, 50, 51);
+.texto-centrado{
+    text-align: center;
 }
+.margen-superior{
+    padding-top:153px;
+}
+
 /*Contacto*/
 .izquierda-contact{
     background-color: rgba(38, 4, 76, 0.8); 
