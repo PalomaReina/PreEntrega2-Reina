@@ -29,12 +29,11 @@ nav ul li a, nav a, nav button, nav span {
   align-items: center;
 }
 
-.titulo-home {
-  color: white;
-  justify-content: center;
+.img-home {
+  display: flex;
   align-items: center;
-  font-size: 3em;
-  padding-top: 15%;
+  justify-content: center;
+  margin-top: 150px;
 }
 
 /*Portafolio*/
